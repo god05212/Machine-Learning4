@@ -80,6 +80,7 @@ GradientBoostingClassifier
 age열의 결측치를 랜던포레스트와 그리드서치를 통해 채우려 하였으나 성능이 안좋았고, 다른 열들을 수정해보았으나 성능은 변함이 없었다. 마지막으로 age 열의 결측치를 평균값으로 채웠더니 성능이 좋아졌다.
 
 시간이 부족해서 더 찾아보지 못했지만 추후 결측치를 모델을 통해 채우면서 성능을 높일 수 있는 방법을 찾아봐야겠다.
+
 ![image](https://github.com/god05212/Machine-Learning4/assets/83646397/0c4f1414-d4db-4538-9979-7491f2ade067)
 ![image](https://github.com/god05212/Machine-Learning4/assets/83646397/982f1065-f55b-4c99-88a5-0af92d06f65f)
 ![image](https://github.com/god05212/Machine-Learning4/assets/83646397/c750f7bf-cea3-4149-b60c-46de0ee4e6a4)
