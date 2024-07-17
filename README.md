@@ -24,8 +24,6 @@ Titanic.csv
 4. Modeling
 5. Stacking
 6. Final Model Evaluation
-  
-<br/>
 
 ## 프로젝트 수행 과정
 1. 데이터 준비 및 초기 분석  
@@ -52,7 +50,6 @@ Titanic.csv
     - vecstack 라이브러리의 Stacking Transformer를 사용하여 구현했습니다.
     - ExtraTreeClassifier, Random ForestClassifier 및 XGBClassifier로 X_train, y_train에 대해 3가지 모델들을 학습시켰습니다.
     - 2단계 모델 GradientBoostingClassifier를 학습시키고 예측한 후 성능을 확인해 보았습니다.
-<br/>
 
 ## 모델의 test dataset에 대한 ROC-AUC Score (소수점 다섯째 자리에서 반올림) 
 | Model | ROC-AUC Score |
@@ -63,13 +60,11 @@ Titanic.csv
 | GradientBoostingClassifier                  | 0.8814 |
 | Gradient Boosting with Hyperparameter Tuned | 0.8680 |
 | Stacking                                    | 0.8175 |
-<br/>
 
 ## 최종 모델
 GradientBoostingClassifier
 - test dataset에 대한 결과
   - ROC-AUC Score: 약 0.8814
-<br/>
 
 ## 주요 EDA 결과
 1. 생존 여부에 따른 데이터 분포
